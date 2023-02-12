@@ -44,7 +44,7 @@ spec:
                 - all
             privileged: false
             readOnlyRootFilesystem: true
-          image: shopping-microservices/frontend:v1
+          image: microservice/frontend:v1
           imagePullPolicy: Never
           ports:
           - containerPort: 8080
@@ -129,7 +129,7 @@ spec:
                 - all
             privileged: false
             readOnlyRootFilesystem: true
-          image: shopping-microservices/frontend:v2
+          image: microservice/frontend:v2
           imagePullPolicy: Never
           ports:
           - containerPort: 8080
