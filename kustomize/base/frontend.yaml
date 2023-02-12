@@ -44,8 +44,8 @@ spec:
                 - all
             privileged: false
             readOnlyRootFilesystem: true
-          image: microservice/frontend:v1
-          imagePullPolicy: Never
+          image: siddhartha2303/microservice-frontend:v1
+          imagePullPolicy: IfNotPresent
           ports:
           - containerPort: 8080
           readinessProbe:
@@ -129,8 +129,8 @@ spec:
                 - all
             privileged: false
             readOnlyRootFilesystem: true
-          image: microservice/frontend:v2
-          imagePullPolicy: Never
+          image: siddhartha2303/microservice-frontend:v2
+          imagePullPolicy: IfNotPresent
           ports:
           - containerPort: 8080
           readinessProbe:
